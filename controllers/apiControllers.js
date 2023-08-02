@@ -12,7 +12,7 @@ const getCursos = async (req, res) => {
         return res.status(200).json({
             ok: true,
             curso: cursos,
-            msg: "recoge todos los cursos"
+            msg: "recoge todos los cursos EDITADO"
 
         })
     } catch (error) {
